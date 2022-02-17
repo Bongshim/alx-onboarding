@@ -1,0 +1,15 @@
+Pseudo code - Sorting
+1. raw <- input 
+2. nSorted <- []
+3. counter <- 0
+4. FOR EACH number in raw:
+5.      IF nSorted.length == 0:
+6.          nSorted.PUSH(number)
+7.      ELSE IF nSorted.length > 0:
+8.          WHILE counter < nSorted.length DO:
+9.              IF number > nSorted[counter]:
+10.                 nSorted.insert(number, counter + 1)
+11.                 BREAK
+12.             ELSE:
+13.                 counter++
+14. PRINT nSorted 

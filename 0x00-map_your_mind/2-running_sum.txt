@@ -1,0 +1,10 @@
+Pseudo code - Running sum
+1. sum <- 0
+2. nums <- input
+3. FOR EACH number in nums:
+4.      IF number >= 0:
+5.          sum+=number
+6.      ELSE IF number < 0:
+7.          Return sum
+8.          BREAK
+9. PRINT sum

@@ -1,15 +1,11 @@
-Pseudo code for summing two squares 
-Input: numbers 
-Initialize: variable "nums" to store the received numbers 
-            variable "numSqrs" to store the squares of the received numbers
-            variable "counter" to keep track of the numbers when calculating the sum of squares 
-            variable "sum" to store the sum of the squares
-For every number in "nums"
-    Get the square of the number and push to the array "numSqrs"
-"counter" = 0
-"sum" = 0
-If "counter"  < length of "numSqrs" array
-    "sum" = numSqrs["counter"] + "sum"
-    return sum
-else 
-    return sum
+Pseudo code - Sum of Squares
+1. nums <- input
+2. numSqrs <- []
+3. counter <- 0
+4. sum <- 0
+5. FOR EACH number in nums:
+6.      numSqrs.PUSH(number**2)
+7. WHILE counter < numSqrs.length:DO
+8.      sum = sum + numSqrs[counter]
+9.      counter++
+5. PRINT counter
